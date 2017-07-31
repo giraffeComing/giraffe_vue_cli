@@ -3,13 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// 定义好store模块之后一定要记得在main.js主入口文件中引入一下！然后在下面的vue实例中注册
+import store from './store/index'
 
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  template: '<App/>',
-  components: { App }
+    el: '#app',
+    router,
+    store:store,
+    template: '<App/>',
+    components: { App }
 })
