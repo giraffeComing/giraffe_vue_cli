@@ -18,4 +18,23 @@ npm run build
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+本地存储
+
+```
+// Store current user
+this.$localStore.set('user', { name:'Marcus' })
+
+// Get current user
+this.$localStore.get('user')
+
+// Remove current user
+this.$localStore.remove('user')
+
+// Clear all keys
+this.$localStore.clearAll()
+
+// Loop over all stored values
+this.$localStore.each(function(value, key) {
+	console.log(key, '==', value)
+})
+```
