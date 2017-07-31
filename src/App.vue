@@ -11,7 +11,6 @@
 //    全局样式
     import base from './assets/scss/base.scss';
 
-
     export default {
         name: 'app',
         mounted:function(){
