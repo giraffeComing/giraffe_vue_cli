@@ -1,6 +1,6 @@
 <template>
     <div class="page-view">
-        <v-container :types="3"></v-container>
+        <v-container :types="3">Welcome Home!</v-container>
         <v-footer></v-footer>
     </div>
 </template>

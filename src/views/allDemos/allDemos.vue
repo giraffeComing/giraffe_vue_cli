@@ -8,6 +8,7 @@
         <transition name="bounce" mode="out-in">
             <router-view></router-view>
         </transition>
+        <v-footer></v-footer>
     </div>
 </template>
 
