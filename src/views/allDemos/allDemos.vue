@@ -68,7 +68,8 @@
                 display: block;
                 background: orange;
                 width: 2rem;
-                height: .4rem;
+                height: .6rem;
+                line-height: .6rem;
                 color: #fff;
                 &.router-link-active{
                     color: red;

@@ -52,6 +52,6 @@
         height: 100%;
         overflow: hidden;
         background: #0ff;
-        margin-top: .4rem;
+        margin-top: .6rem;
     }
 </style>

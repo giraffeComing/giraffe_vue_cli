@@ -47,6 +47,6 @@
 
 <style scoped lang="scss" rel="stylesheet/scss">
     .swiper-demo{
-        margin-top: .4rem;
+        margin-top: .6rem;
     }
 </style>
