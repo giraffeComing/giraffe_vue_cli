@@ -16,8 +16,6 @@
             return {
                 swiperOpts:{
                     pagination: '.swiper-pagination',
-//                    nextButton: '.swiper-button-next',
-//                    prevButton: '.swiper-button-prev',
                     slidesPerView: 1,
                     speed:800,
                     paginationClickable: true,
@@ -26,19 +24,19 @@
                 },
                 imgs:[
                     {
-                        "imgSrc":"../assets/images/logo.png",
+                        "imgSrc":"../../static/image1.png",
                         "href":"http://www.sina.com.cn/",
                     },
                     {
-                        "imgSrc":"../../static/imgs/banner01.jpg",
+                        "imgSrc":"../../static/image2.png",
                         "href":"http://www.sina.com.cn/",
                     },
                     {
-                        "imgSrc":"../../static/imgs/banner01.jpg",
+                        "imgSrc":"../../static/image3.png",
                         "href":"http://www.sina.com.cn/",
                     },
                     {
-                        "imgSrc":"../../static/imgs/banner01.jpg",
+                        "imgSrc":"../../static/image4.png",
                         "href":"http://www.sina.com.cn/",
                     }
                 ],
