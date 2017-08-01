@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="swiper-demo">
         <!--轮播 调用轮播的时候传入相应的轮播配置和数据-->
         <v-swiper :opts="swiperOpts" :dataVal="imgs"></v-swiper>
     </div>
@@ -46,5 +46,7 @@
 </script>
 
 <style scoped lang="scss" rel="stylesheet/scss">
-
+    .swiper-demo{
+        margin-top: .4rem;
+    }
 </style>

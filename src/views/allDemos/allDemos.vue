@@ -68,6 +68,11 @@
                 display: block;
                 background: orange;
                 width: 2rem;
+                height: .4rem;
+                color: #fff;
+                &.router-link-active{
+                    color: red;
+                }
             }
         }
     }

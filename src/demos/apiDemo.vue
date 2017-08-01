@@ -1,13 +1,12 @@
 <template>
-    <div>
+    <div class="api-demo">
         <div>
-            APIDemo
+            <p class="title">基金模块，基金列表接口：FUND().fundList</p>
+            <p class="code">输出结果：<br>{{fund}}</p>
         </div>
         <div>
-            {{fund}}
-        </div>
-        <div>
-            {{user}}
+            <p class="title">用户模块：USER()</p>
+            <p class="code">输出结果：<br>{{user}}</p>
         </div>
     </div>
 </template>
@@ -35,5 +34,14 @@
 </script>
 
 <style scoped lang="scss" rel="stylesheet/scss">
-
+    .api-demo{
+        padding-top: .4rem;
+    }
+    .title{
+        margin: .2rem 0;
+    }
+    .code{
+        padding: .2rem;
+        background: #ddd;
+    }
 </style>
