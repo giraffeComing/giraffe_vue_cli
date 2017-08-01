@@ -5,7 +5,9 @@
             <li><router-link :to="{ path: '/demos/betterScroll' }">BS</router-link></li>
             <li><router-link :to="{ path: '/demos/swiper' }">SWIPER</router-link></li>
         </ul>
-        <router-view></router-view>
+        <transition name="bounce" mode="out-in">
+            <router-view></router-view>
+        </transition>
     </div>
 </template>
 
@@ -33,6 +35,24 @@
 </script>
 
 <style scoped lang="scss" rel="stylesheet/scss">
+    .bounce-enter-active {
+        animation: bounce-in .5s;
+    }
+    .bounce-leave-active {
+        animation: bounce-in .5s reverse;
+    }
+    @keyframes bounce-in {
+        0% {
+            transform: scale(0);
+        }
+        50% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+
     .licai-routers{
         position: fixed;
         top:0;
