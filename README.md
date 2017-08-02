@@ -17,26 +17,38 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-本地存储
-
+# 目录结构
 ```
-// Store current user
-this.$localStore.set('user', { name:'Marcus' })
-
-// Get current user
-this.$localStore.get('user')
-
-// Remove current user
-this.$localStore.remove('user')
-
-// Clear all keys
-this.$localStore.clearAll()
-
-// Loop over all stored values
-this.$localStore.each(function(value, key) {
-	console.log(key, '==', value)
-})
+├─build
+├─config
+├─src
+│  ├─api
+│  │  ├─fund
+│  │  └─user
+│  ├─assets
+│  │  ├─images
+│  │  └─scss
+│  ├─components
+│  │  ├─common
+│  │  │  └─button
+│  │  ├─layout
+│  │  │  ├─container
+│  │  │  ├─dialog
+│  │  │  ├─footer
+│  │  │  ├─header
+│  │  │  └─loading
+│  │  └─plug
+│  │      └─swiper
+│  ├─demos
+│  ├─router
+│  ├─store
+│  │  ├─modules_A
+│  │  └─modules_B
+│  └─views
+│      ├─404
+│      ├─allDemos
+│      └─index
+└─static
 ```
 
 ### 一、vue-cli脚手架的初始化及git仓库初始化
