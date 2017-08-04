@@ -10,6 +10,7 @@ import VBetterScroll from '../demos/betterScrollDemo.vue'
 import VIndex from '../views/index/index.vue'
 import VError from '../views/404/404.vue'
 import VDemo from '../views/allDemos/allDemos.vue'
+import VExercise from '../views/exercise/exercise'
 
 Vue.use(Router)
 
@@ -22,6 +23,12 @@ export default new Router({
           path: '/index',
           component: VIndex,
           name: 'VIndex',
+      },
+      //练习
+      {
+          path: '/exercise',
+          component: VExercise,
+          name: 'VExercise',
       },
       // demo集合页
       {

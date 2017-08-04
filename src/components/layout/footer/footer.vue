@@ -12,8 +12,8 @@
                 </router-link>
             </li>
             <li>
-                <router-link :to="{ path: '/*' }">
-                    <span class="nav03">404</span>
+                <router-link :to="{ path: '/exercise' }">
+                    <span class="nav03">exercise</span>
                 </router-link>
             </li>
         </ul>
